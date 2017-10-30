@@ -1,0 +1,33 @@
+.intro
+{
+  color: blue;
+  font-family: policePerso;
+  font-size: 2em;
+  text-align: center;
+}
+
+h1
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url("images/bg.jpg");
+}
+
+@font-face
+{
+    font-family: 'policePerso';
+    src: url('fonts/grand-hotel/grandhotel-regular-webfont.otf') format('otf'),
+         url('fonts/grand-hotel/grandhotel-regular-webfont.woff') format('woff'),
+         url('fonts/grand-hotel/grandhotel-regular-webfont.ttf') format('truetype'),
+         url('fonts/grand-hotel/grandhotel-regular-webfont.eot') format('eot'),
+         url('fonts/grand-hotel/grandhotel-regular-webfont.svg') format('svg');
+}
+
+ul
+{
+  border: 2px red solid;
+  box-shadow: 6px 6px 5px green;
+}
