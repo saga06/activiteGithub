@@ -13,7 +13,8 @@ h1
 
 body
 {
-  background-image: url("images/bg.jpg");
+  text-align: center;
+  margin: auto;
 }
 
 @font-face
@@ -28,6 +29,38 @@ body
 
 ul
 {
-  border: 2px red solid;
-  box-shadow: 6px 6px 5px green;
+  border: 2px blue solid;
+  box-shadow: 6px 6px 5px blue;
+  font-family: policePerso;
+  font-size: 1.3em;
+}
+
+#blocPage
+{
+  display: flex;
+  height: 100%;
+}
+
+.liseret
+{
+  width: 20%;
+  background-color: black;
+  height: 900px;
+}
+
+.contenu
+{
+  width: 80%;
+  background-image: url("images/bg.jpg");
+}
+
+.colonne
+{
+  display: flex;
+}
+
+.element
+{
+  margin: 20px;
+  width: 33%;
 }
